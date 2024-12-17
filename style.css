@@ -1,0 +1,48 @@
+.header {
+	background-color: #1F2937;
+	padding: 0 8px;
+}
+
+.top, .top ul {
+	display: flex;
+	justify-content: space-between
+}
+
+.top ul {
+	gap: 12px;
+	list-style-type: none;
+	padding-left: 0px;
+	align-items: center;
+}
+
+.right-links, .subtext {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.left-link {
+	font-size: 24px;
+	color: #F9FAF8;
+}
+
+.hero {
+	padding: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.description {
+	flex: 1 1;
+	align-self: center;
+}
+.title {
+	font-size: 48px;
+	color: #F9FAF8;
+	font-weight: 900;
+}
+
+.photo_portrait {
+	flex: 0 1 auto;
+}
+
