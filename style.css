@@ -1,6 +1,8 @@
 .header {
 	background-color: #1F2937;
 	padding: 0 8px;
+	display:flex;
+	flex-direction: column;
 }
 
 .top, .top ul {
@@ -33,7 +35,7 @@
 }
 
 .description {
-	flex: 1 1;
+	flex: 1 1 0;
 	align-self: center;
 }
 .title {
@@ -43,6 +45,6 @@
 }
 
 .photo_portrait {
-	flex: 0 1 auto;
+	flex: 1 1 0;
 }
 
