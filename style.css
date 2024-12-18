@@ -1,10 +1,72 @@
+body {
+	font-family: 'roboto'; /*Currently not working. To return to!!! */
+}
+
 .header {
 	background-color: #1F2937;
 	padding: 0 8px;
 	display:flex;
 	flex-direction: column;
+	min-height: 33vw;
 }
 
+.info {
+	min-height: 33vw;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+.quote {
+	display: flex;
+	min-height: 33vw;
+	justify-content: center;
+	align-items: center;
+	background-color: #E5E7EB;
+}
+
+.citation {
+	display: flex;
+	flex-direction: column;
+	padding-left: 6vw;
+	padding-right: 6vw;
+	font-size: 36px;
+	color: #1F2937;
+	font-style: italic;
+}
+
+#sign {
+	text-align: right;
+	margin-top: 0px;
+}
+.information {
+	text-align: center;
+}
+
+#info_box_box {
+	display: flex;
+	margin-top: auto;
+	margin-bottom: auto;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.box {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #3882F6;
+	height: 150px;
+	width: 150px;
+}
+.info_box {
+	width: 150px;
+}
+
+.information {
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 900;
+}
 .top, .top ul {
 	display: flex;
 	justify-content: space-between
